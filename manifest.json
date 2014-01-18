@@ -3,10 +3,12 @@
   "name": "chrome extension parser",
   "version": "0.0.1",
   "description": "Parse the file structure of an extension app by extension id.",
-  "icon": {},
   "browser_action": {},
   "background": {
-    "persistent": false
+    "persistent": false,
+    "scripts": [
+      "js/background.js"
+    ]
   },
   "offline_enabled": true
 }
